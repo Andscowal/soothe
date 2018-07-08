@@ -1,0 +1,55 @@
+body {
+  background: linear-gradient(100deg, #517c44, #f4d400);
+}
+
+.container {
+  height: 600px;
+  width: 400px;
+  margin: 100px auto;
+  background: linear-gradient(240deg, #0090a7, #75487c);
+  border-radius: 10px;
+}
+
+.info {
+  font-size: 30px;
+  padding: 10px;
+  color: #fff;
+}
+
+.close {
+  text-align: right;
+  font-size: 20px;
+  margin: 5px 5px 0 0;
+}
+
+.overlay {
+  text-align: center;
+  margin: 10px;
+  padding: 3px 8px;
+  color: #fff;
+  border-radius: 10px;
+  background-color: #000;
+  opacity: 0.65;
+}
+
+.timer {
+  text-align: center;
+  color: #fff;
+}
+
+.play {
+  font-size: 30px;
+}
+
+.pulse {
+  animation: pulse 5s alternate-reverse infinite;
+}
+
+@keyframes pulse {
+  0% {
+    stroke-width: 0.05em;
+  }
+  100% {
+    stroke-width: 0.25em;
+  }
+}
